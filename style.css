@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 header{
-    background-image: url("/resources/Banner\ Image.png");
+    background-image: url("./resources/Banner\ Image.png");
     width:100%; 
     background-position:center; 
     height: 500px;
