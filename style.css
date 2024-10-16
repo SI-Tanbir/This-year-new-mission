@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("/resources/Banner\ Image.png");
+    width:100%; 
+    background-position:center; 
+    height: 500px;
+    background-repeat:no-repeat;
+    /* padding:100% */
+    /* padding:0 400px */
+    margin-left: 5px;
+}
+.text-banner h2,.text-banner h1{
+    /* margin-top: ; */
+    padding-top: 5px;
+ text-align: center;  
+ color:#FFFFFF; 
+ 
+}
+
+.discount-banner h1,.discount-banner p{
+color:orangered;
+
+}
+.discount-banner{
+    text-align: center;
+    align-items: center;
+}
+
+.wecome-party-banner{
+    background-image: url("./resources/Vectorrr.png");
+    color:#FFFFFF;
+    display: flex;
+    background-repeat: no-repeat;
+    padding:80px
+}
+.wecome-party-banner a{
+    color:#FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+}
+.placelocation{
+    background: linear-gradient(to bottom, rgba(252, 177, 188, 0.524), rgba(229, 160, 160, 0));
+    text-align: center;
+    /* padding:100px; */
+    margin-left:80px ;
+    margin-right: 80px;
+    padding: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   
+}
+.placelocation span{
+    color:orangered
+}
+.placelocation a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.placelocation button{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.new-best-offer{
+    background-image: url("./resources/Ellipse\ 1.png");
+    background-repeat: no-repeat;
+    padding: 10px;
+    /* border:2 px solid orangered; */
+    background-position: center;
+    display: flex;
+
+}
+
+.new-best-offer h3 ,.new-best-offer h4{
+    color:orangered;
+}
+.new-best-offer div{
+    margin: 50px 100px;
+}
+.best-offer-para{
+    margin-right: 500px;
+}
+
+
+.holiday-sale span{
+    color: orangered;
+    font-size: 40px;
+
+}
+.holiday-sale h1{
+    font-size: 40px;
+}
+.holiday-sale {
+    
+    text-align: center;
+    
+
+
+}
+.holiday-sale div{
+    background-image: url("./resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* padding: 100px; */
+    background-position: bottom,right;
+    display: flex;
+}
+
+
+.holiday-sale p{
+    padding: 0px 200px;
+    justify-content: center;
+}
+
+.holiday-sale div>img{
+    /* padding-right:600px; */
+
+
+}
+.discount-tag{
+    margin-left: 60%;
+    position: absolute;
+}
+.girl-shoping{
+    margin-left: 450px;
+    /* position: relative; */
+
+}
+
+.best-gifts h3{
+color:orangered
+}
+.best-gifts{text-align: left;
+margin: 30px 60px;
+
+}
+.best-gifts div>img{
+    width: 400px;
+}
+.subscribe-newsletter{
+    background-color: #e798fb5f;
+    text-align: center;
+    /* align-items: center; */
+    margin: 20px 60px;
+    padding: 50px;
+}
+.subscribe-newsletter input{
+    border-top-left-radius: 20px;  /* Rounded top-left corner */
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+}
+.subscribe-newsletter button{
+    border-top-right-radius: 20px;  /* Rounded top-left corner */
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    margin-right: 20px;
+}
+
+.footer-first-banner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-first-banner>div{
+    display: block;
+}
+
+
+.footer-icon{
+    text-align: center;
+}
+.later-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer-banner{
+    padding: 60px;
+    background-color: black;
+    color: #FFFFFF;
+}
