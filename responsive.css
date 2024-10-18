@@ -1,0 +1,74 @@
+/* lets make responsive */
+
+.hide{
+    display: none;
+}
+@media screen  and (max-width:640px){
+
+    .new-year-icons{
+        display: none;
+    }
+    .placelocation {
+        margin:auto;
+        padding:2rem;
+    }
+    .best-offer-para{
+        margin:0 auto;
+        
+    }
+    .new-best-offer{
+        text-align: center;
+        flex-direction: column;
+        background-image: none;
+
+    }
+    .new-best-offer div{
+        margin:0 auto;
+    }
+
+
+.girl-shoping{
+    display: none;
+}
+
+.holiday-sale p {
+    padding:10px ;
+  
+}
+.gift-box{
+    width: 50%;
+}
+.discount-tag {
+    width: 20%;
+    height: 10%;
+    top: 142rem;
+    left: -7rem;
+}
+
+.best-gifts{
+    margin:0 auto;
+
+
+}
+.best-gifts-content{
+    text-align: center;
+}
+.best-gifts-images{
+    display: grid;
+    /* flex-direction: row; */
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    /* flex-wrap:wrap; */
+    /* flex-direction: row; */
+    
+}
+.subscribe-newsletter {
+    background-color: #e798fb5f;
+    /* text-align: center; */
+    /* align-items: center; */
+     margin:0;
+    padding: 0;
+}
+
+
+}

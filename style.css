@@ -14,12 +14,19 @@ header{
     /* padding:0 400px */
     margin-left: 5px;
 }
+.tex-banner-tittle{
+    color:#ff0000
 
+}
+
+.discount-banner img{
+     width:60%; 
+}
 .text-banner h2,.text-banner h1{
-    /* margin-top: ; */
+
     padding-top: 5px;
  text-align: center;  
- color:#FFFFFF; 
+
  
 }
 
@@ -93,12 +100,13 @@ color:orangered;
 
 .holiday-sale span{
     color: orangered;
-    font-size: 40px;
+    font-size: 1em;
 
 }
 .holiday-sale h1{
-    font-size: 40px;
+    font-size: 3em;
 }
+
 .holiday-sale {
     
     text-align: center;
@@ -106,12 +114,12 @@ color:orangered;
 
 
 }
-.holiday-sale div{
+.image-container{
     background-image: url("./resources/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-size: contain;
     /* padding: 100px; */
-    background-position: bottom,right;
+    background-position: bottom;
     display: flex;
 }
 
@@ -121,19 +129,15 @@ color:orangered;
     justify-content: center;
 }
 
-.holiday-sale div>img{
-    /* padding-right:600px; */
 
-
-}
 .discount-tag{
     margin-left: 60%;
     position: absolute;
 }
-.girl-shoping{
-    margin-left: 450px;
-    /* position: relative; */
 
+.girl-shoping{
+    margin: auto;
+    border-radius: 50%;
 }
 
 .best-gifts h3{
@@ -143,8 +147,15 @@ color:orangered
 margin: 30px 60px;
 
 }
-.best-gifts div>img{
-    width: 400px;
+.best-gifts-images img{
+    width: 100%;
+}
+.best-gifts-images{
+    display: grid;
+    /* flex-direction: row; */
+    /* width: 100%; */
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
 }
 .subscribe-newsletter{
     background-color: #e798fb5f;
@@ -192,4 +203,7 @@ margin: 30px 60px;
     padding: 60px;
     background-color: black;
     color: #FFFFFF;
+}
+.best-gifts-content{
+    width: 100%;
 }
